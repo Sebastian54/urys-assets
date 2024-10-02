@@ -1,5 +1,6 @@
 package com.seba542.urysassets;
 
+import com.seba542.urysassets.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class UrysAssets implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModBlocks.registerModBlocks();
 	}
 }
