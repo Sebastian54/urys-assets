@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "urys-assets",
+	"version": "${version}",
+	"name": "Ury's Assets",
+	"description": "Ury's Wardrobe",
+	"authors": [
+		"Seba542",
+		"Ury (Uriel)"
+	],
+	"contact": {
+		"homepage": "https://rtd-2.co.uk/",
+		"sources": "https://github.com/Sebatian54/urys-assets"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/urys-assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.seba542.urysassets.UrysAssets"
+		],
+		"fabric-datagen": [
+			"com.seba542.urysassets.UrysAssetsDataGenerator"
+		],
+		"client": [
+			"com.seba542.urysassets.UrysAssetsClient"
+		]
+	},
+	"mixins": [
+		"urys-assets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
