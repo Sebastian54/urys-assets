@@ -1,6 +1,6 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "urydrobe",
+	"credit": "Made with Blockbench by Uriel",
+	"parent": "wardrobe",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "urys-assets:block/wardrobe",
